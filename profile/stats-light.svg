@@ -8,8 +8,8 @@
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">Junpei Tsuchida's GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Stars Earned: 134, Total Commits  : 1713, Total PRs: 298, Total PRs Merged: 268, Merged PRs Percentage: 89.93, Total PRs Reviewed: 26, Total Issues: 274, Contributed to (last year): 8</desc>
+        <title id="titleId">07JP27's GitHub Stats, Rank: A</title>
+        <desc id="descId">Total Stars Earned: 134, Total Commits  : 1720, Total PRs: 298, Total PRs Merged: 268, Merged PRs Percentage: 89.93, Total PRs Reviewed: 26, Total Issues: 274, Contributed to (last year): 8</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 42.548431898382894;
+        stroke-dashoffset: 42.48658832881427;
       }
     }
   
@@ -126,7 +126,7 @@
         y="0"
         class="header"
         data-testid="header"
-      >Junpei Tsuchida's GitHub Stats</text>
+      >07JP27's GitHub Stats</text>
     </g>
       </g>
     
