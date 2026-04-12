@@ -20,12 +20,12 @@ Building things I find interesting — from cloud to hardware, powered by Azure 
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="profile/stats-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="profile/stats-light.svg" />
-    <img width="57%" alt="GitHub Stats" src="profile/stats-light.svg" />
+    <img width="59%" alt="GitHub Stats" src="profile/stats-light.svg" />
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="profile/top-langs-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="profile/top-langs-light.svg" />
-    <img width="41%" alt="Top Languages" src="profile/top-langs-light.svg" />
+    <img width="39%" alt="Top Languages" src="profile/top-langs-light.svg" />
   </picture>
 </p>
 
