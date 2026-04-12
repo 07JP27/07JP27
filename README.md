@@ -3,15 +3,17 @@
 Building things I find interesting — from cloud to hardware, powered by Azure and AI.
 
 <p>
-  <a href="https://twitter.com/07jp27"><img src="https://img.shields.io/badge/-@07jp27-555555?style=flat&logo=x&logoColor=white" alt="X (Twitter)" /></a>
-  <a href="https://zenn.dev/07jp27"><img src="https://img.shields.io/badge/-Zenn-3EA8FF?style=flat&logo=zenn&logoColor=white" alt="Zenn" /></a>
-  <a href="https://qiita.com/07JP27"><img src="https://img.shields.io/badge/-Qiita-55C500?style=flat&logo=qiita&logoColor=white" alt="Qiita" /></a>
+  <a href="https://twitter.com/07jp27"><img src="https://img.shields.io/badge/-@07jp27-555555?style=flat&logo=x&logoColor=white" alt="X (Twitter)" height="28" /></a>
+  <a href="https://zenn.dev/07jp27"><img src="https://img.shields.io/badge/-Zenn-3EA8FF?style=flat&logo=zenn&logoColor=white" alt="Zenn" height="28" /></a>
+  <a href="https://qiita.com/07JP27"><img src="https://img.shields.io/badge/-Qiita-55C500?style=flat&logo=qiita&logoColor=white" alt="Qiita" height="28" /></a>
 </p>
 
 ### Tech Stack
 
-![C#](https://img.shields.io/badge/-C%23-239120?style=flat&logo=csharp&logoColor=white)
-![Azure](https://img.shields.io/badge/-Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white)
+<p>
+  <img src="https://img.shields.io/badge/-C%23-239120?style=flat&logo=csharp&logoColor=white" alt="C#" height="28" />
+  <img src="https://img.shields.io/badge/-Azure-0078D4?style=flat&logo=microsoftazure&logoColor=white" alt="Azure" height="28" />
+</p>
 
 
 ### GitHub Stats

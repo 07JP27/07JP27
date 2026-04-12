@@ -19,7 +19,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&show=reviews,prs_merged,prs_merged_percentage&theme=default&hide_border=true
+          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&show=reviews,prs_merged,prs_merged_percentage&theme=default&hide_border=true&custom_title=07JP27%27s%20GitHub%20Stats
           path: profile/stats-light.svg
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
@@ -27,7 +27,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&show=reviews,prs_merged,prs_merged_percentage&theme=github_dark&hide_border=true
+          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&show=reviews,prs_merged,prs_merged_percentage&theme=github_dark&hide_border=true&custom_title=07JP27%27s%20GitHub%20Stats
           path: profile/stats-dark.svg
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
