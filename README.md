@@ -11,18 +11,24 @@ Azure とAI を軸に、クラウドからハードウェアまで「面白い�
 
 ### GitHub Stats
 
-<p>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="profile/stats-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="profile/stats-light.svg" />
-    <img height="200" align="center" alt="GitHub Stats" src="profile/stats-light.svg" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="profile/top-langs-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="profile/top-langs-light.svg" />
-    <img height="200" align="center" alt="Top Languages" src="profile/top-langs-light.svg" />
-  </picture>
-</p>
+<table>
+  <tr>
+    <td width="50%">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="profile/stats-dark.svg" />
+        <source media="(prefers-color-scheme: light)" srcset="profile/stats-light.svg" />
+        <img width="100%" alt="GitHub Stats" src="profile/stats-light.svg" />
+      </picture>
+    </td>
+    <td width="50%">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="profile/top-langs-dark.svg" />
+        <source media="(prefers-color-scheme: light)" srcset="profile/top-langs-light.svg" />
+        <img width="100%" alt="Top Languages" src="profile/top-langs-light.svg" />
+      </picture>
+    </td>
+  </tr>
+</table>
 
 ### Featured Projects
 
