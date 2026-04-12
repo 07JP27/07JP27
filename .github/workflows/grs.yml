@@ -1,0 +1,127 @@
+name: Update README Cards
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      # --- Stats Card ---
+      - name: Stats card (light)
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&show=reviews,prs_merged,prs_merged_percentage&theme=default&hide_border=true
+          path: profile/stats-light.svg
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+
+      - name: Stats card (dark)
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&show=reviews,prs_merged,prs_merged_percentage&theme=github_dark&hide_border=true
+          path: profile/stats-dark.svg
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+
+      # --- Top Languages Card (donut) ---
+      - name: Top languages card (light)
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=donut&langs_count=8&size_weight=0.5&count_weight=0.5&theme=default&hide_border=true
+          path: profile/top-langs-light.svg
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+
+      - name: Top languages card (dark)
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=donut&langs_count=8&size_weight=0.5&count_weight=0.5&theme=github_dark&hide_border=true
+          path: profile/top-langs-dark.svg
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+
+      # --- Repo Pin Cards ---
+      - name: Pin - DurableMultiAgentTemplate (light)
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=DurableMultiAgentTemplate&theme=default&hide_border=true
+          path: profile/pin-durable-light.svg
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+
+      - name: Pin - DurableMultiAgentTemplate (dark)
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=DurableMultiAgentTemplate&theme=github_dark&hide_border=true
+          path: profile/pin-durable-dark.svg
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+
+      - name: Pin - ZoomacIt (light)
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=ZoomacIt&theme=default&hide_border=true
+          path: profile/pin-zoomacit-light.svg
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+
+      - name: Pin - ZoomacIt (dark)
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=ZoomacIt&theme=github_dark&hide_border=true
+          path: profile/pin-zoomacit-dark.svg
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+
+      - name: Pin - azureopenai-essential-notebooks (light)
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=azureopenai-essential-notebooks&theme=default&hide_border=true
+          path: profile/pin-openai-light.svg
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+
+      - name: Pin - azureopenai-essential-notebooks (dark)
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=azureopenai-essential-notebooks&theme=github_dark&hide_border=true
+          path: profile/pin-openai-dark.svg
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+
+      - name: Pin - GitHub-Copilot-Physical-Notifier (light)
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=GitHub-Copilot-Physical-Notifier&theme=default&hide_border=true
+          path: profile/pin-notifier-light.svg
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+
+      - name: Pin - GitHub-Copilot-Physical-Notifier (dark)
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=${{ github.repository_owner }}&repo=GitHub-Copilot-Physical-Notifier&theme=github_dark&hide_border=true
+          path: profile/pin-notifier-dark.svg
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+
+      # --- Commit & Push ---
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          if git commit -m "chore: update readme cards"; then
+            git push
+          fi
