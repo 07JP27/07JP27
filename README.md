@@ -13,14 +13,14 @@ Azure とAI を軸に、クラウドからハードウェアまで「面白い�
 
 <table>
   <tr>
-    <td width="50%">
+    <td width="60%">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="profile/stats-dark.svg" />
         <source media="(prefers-color-scheme: light)" srcset="profile/stats-light.svg" />
         <img width="100%" alt="GitHub Stats" src="profile/stats-light.svg" />
       </picture>
     </td>
-    <td width="50%">
+    <td width="40%">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="profile/top-langs-dark.svg" />
         <source media="(prefers-color-scheme: light)" srcset="profile/top-langs-light.svg" />
