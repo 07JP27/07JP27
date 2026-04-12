@@ -1,4 +1,4 @@
-# 07JP27
+# Junpei Tsuchida (07JP27)
 
 Azure とAI を軸に、クラウドからハードウェアまで「面白い」と思ったものを作っています。
 
@@ -32,48 +32,31 @@ Azure とAI を軸に、クラウドからハードウェアまで「面白い�
 
 ### Featured Projects
 
-<table>
-  <tr>
-    <td width="50%">
-      <a href="https://github.com/07JP27/DurableMultiAgentTemplate">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="profile/pin-durable-dark.svg" />
-          <source media="(prefers-color-scheme: light)" srcset="profile/pin-durable-light.svg" />
-          <img width="100%" alt="DurableMultiAgentTemplate" src="profile/pin-durable-light.svg" />
-        </picture>
-      </a>
-    </td>
-    <td width="50%">
-      <a href="https://github.com/07JP27/ZoomacIt">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="profile/pin-zoomacit-dark.svg" />
-          <source media="(prefers-color-scheme: light)" srcset="profile/pin-zoomacit-light.svg" />
-          <img width="100%" alt="ZoomacIt" src="profile/pin-zoomacit-light.svg" />
-        </picture>
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <a href="https://github.com/07JP27/azureopenai-essential-notebooks">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="profile/pin-openai-dark.svg" />
-          <source media="(prefers-color-scheme: light)" srcset="profile/pin-openai-light.svg" />
-          <img width="100%" alt="azureopenai-essential-notebooks" src="profile/pin-openai-light.svg" />
-        </picture>
-      </a>
-    </td>
-    <td width="50%">
-      <a href="https://github.com/07JP27/GitHub-Copilot-Physical-Notifier">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="profile/pin-notifier-dark.svg" />
-          <source media="(prefers-color-scheme: light)" srcset="profile/pin-notifier-light.svg" />
-          <img width="100%" alt="GitHub-Copilot-Physical-Notifier" src="profile/pin-notifier-light.svg" />
-        </picture>
-      </a>
-    </td>
-  </tr>
-</table>
+<p>
+  <a href="https://github.com/07JP27/DurableMultiAgentTemplate">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="profile/pin-durable-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="profile/pin-durable-light.svg" />
+      <img width="49%" alt="DurableMultiAgentTemplate" src="profile/pin-durable-light.svg" />
+    </picture>
+  </a>
+  <a href="https://github.com/07JP27/ZoomacIt">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="profile/pin-zoomacit-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="profile/pin-zoomacit-light.svg" />
+      <img width="49%" alt="ZoomacIt" src="profile/pin-zoomacit-light.svg" />
+    </picture>
+  </a>
+</p>
+<p>
+  <a href="https://github.com/07JP27/GitHub-Copilot-Physical-Notifier">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="profile/pin-notifier-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="profile/pin-notifier-light.svg" />
+      <img width="49%" alt="GitHub-Copilot-Physical-Notifier" src="profile/pin-notifier-light.svg" />
+    </picture>
+  </a>
+</p>
 
 ### Contribution Graph
 
