@@ -41,6 +41,13 @@ Building things I find interesting — from cloud to hardware, powered by Azure 
       <img width="49%" alt="ZoomacIt" src="profile/pin-zoomacit-light.svg" />
     </picture>
   </a>
+  <a href="https://github.com/07JP27/SkimDown">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="profile/pin-skimdown-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="profile/pin-skimdown-light.svg" />
+      <img width="49%" alt="SkimDown" src="profile/pin-skimdown-light.svg" />
+    </picture>
+  </a>
   <a href="https://github.com/07JP27/GitHub-Copilot-Physical-Notifier">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="profile/pin-notifier-dark.svg" />
