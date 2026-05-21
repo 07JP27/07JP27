@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">07JP27's GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Stars Earned: 147, Total Commits  : 1769, Total PRs: 319, Total PRs Merged: 290, Merged PRs Percentage: 90.91, Total PRs Reviewed: 33, Total Issues: 288, Contributed to (last year): 8</desc>
+        <desc id="descId">Total Stars Earned: 148, Total Commits  : 1769, Total PRs: 319, Total PRs Merged: 290, Merged PRs Percentage: 90.91, Total PRs Reviewed: 34, Total Issues: 290, Contributed to (last year): 8</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 40.29906494714795;
+        stroke-dashoffset: 40.19122570366232;
       }
     }
   
@@ -162,7 +162,7 @@
         x="219.01"
         y="12.5"
         data-testid="stars"
-      >147</text>
+      >148</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
@@ -237,7 +237,7 @@
         x="219.01"
         y="12.5"
         data-testid="reviews"
-      >33</text>
+      >34</text>
     </g>
   </g><g transform="translate(0, 150)">
     <g class="stagger" style="animation-delay: 1350ms" transform="translate(25, 0)">
@@ -252,7 +252,7 @@
         x="219.01"
         y="12.5"
         data-testid="issues"
-      >288</text>
+      >290</text>
     </g>
   </g><g transform="translate(0, 175)">
     <g class="stagger" style="animation-delay: 1500ms" transform="translate(25, 0)">
