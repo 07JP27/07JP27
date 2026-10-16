@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">07JP27's GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Stars Earned: 170, Total Commits  : 1967, Total PRs: 460, Total PRs Merged: 424, Merged PRs Percentage: 92.17, Total PRs Reviewed: 33, Total Issues: 326, Contributed to (last year): 19</desc>
+        <desc id="descId">Total Stars Earned: 170, Total Commits  : 1967, Total PRs: 461, Total PRs Merged: 424, Merged PRs Percentage: 91.97, Total PRs Reviewed: 33, Total Issues: 326, Contributed to (last year): 19</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 35.375337390832996;
+        stroke-dashoffset: 35.37386659448567;
       }
     }
   
@@ -192,7 +192,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >460</text>
+      >461</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -222,7 +222,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs_merged_percentage"
-      >92.17 %</text>
+      >91.97 %</text>
     </g>
   </g><g transform="translate(0, 125)">
     <g class="stagger" style="animation-delay: 1200ms" transform="translate(25, 0)">
